@@ -11,7 +11,7 @@ object $name;format="Camel"$Build extends Build {
       organization := "$organization$",
       version := "$version$",
       scalaVersion := "$scala_version$",
-      libraryDependencies += "org.scalatest" % "scalatest_2.10" % "1.9.1" % "test"
+      libraryDependencies += "org.scalatest" % "scalatest_2.11" % "2.1.5" % "test"
     )
   )
 }
